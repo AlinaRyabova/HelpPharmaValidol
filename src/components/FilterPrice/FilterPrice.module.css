@@ -1,0 +1,67 @@
+.allFiltAlf {
+  position: relative;
+}
+
+.secAllDiv {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.allButtonFA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px grey solid;
+  background-color: transparent;
+  padding: 0;
+  transition: background-color 250ms cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.allButtonFAAct {
+  background-color: blue;
+  color: #fff;
+}
+
+.divArrow {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./arrow-down-svgrepo-com.svg");
+}
+
+.allButtonFAAct .divArrow {
+  background-image: url("./arrow-down-wight.svg");
+}
+
+.divArrowAct {
+  background-image: url("./arrow-up-svgrepo-com.svg");
+}
+
+.allButtonFAAct .divArrowAct {
+  background-image: url("./arrow-up-wight.svg");
+}
+
+.divDrL {
+  position: absolute;
+  left: 0;
+  top: 25%;
+  padding: 0;
+  transform: translateY(-100%);
+  border-radius: 10px;
+  background-color: #fff;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  transition: transform 250ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.divDrLAct {
+  z-index: 9999;
+  white-space: normal;
+  clip: auto;
+  overflow: visible;
+  transform: translateY(0);
+}

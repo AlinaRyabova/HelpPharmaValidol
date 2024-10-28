@@ -1,0 +1,9 @@
+.inputFilter {
+  display: flex;
+  border: 1px grey solid;
+}
+
+.inputFilter::placeholder {
+  /* font-size: 14px; */
+  color: rgba(0, 0, 0, 0.5);
+}

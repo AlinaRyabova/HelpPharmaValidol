@@ -1,0 +1,65 @@
+.divNavigation {
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid blue;
+}
+
+.navNavigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aNavigation {
+  text-decoration: none;
+  color: #000000;
+  position: relative;
+}
+
+.aNavigation:focus {
+  color: blue;
+}
+
+.pNavigation {
+  font-size: 14px;
+  margin: 0;
+}
+
+.buttonNavShopCart {
+  border-radius: 50%;
+  border: transparent;
+  background-color: rgb(149, 200, 251);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.divNavShopCart {
+  color: transparent;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./trolley-cart-ui-svgrepo-com.svg#Trolley");
+}
+
+.pNavShopCart {
+  font-size: 0;
+}
+
+.divPLenDr {
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 60%;
+  left: 60%;
+}
+
+.pLenDr {
+  color: #fff;
+  font-weight: 700;
+}

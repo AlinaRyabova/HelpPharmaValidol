@@ -1,0 +1,59 @@
+.divDataUsSavDr {
+  display: flex;
+}
+
+.divTotButShC {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.totShC {
+  margin: 0;
+  padding: 0;
+}
+
+.buttonShCForm {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(149, 200, 251);
+  border: transparent;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.25, 0.1, 0.25, 1),
+    color 250ms cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.buttonShCForm:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+.divSvgBShC {
+  content: "";
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./trolley-ui-web-2-svgrepo-com.svg");
+  transition: background-image 250ms cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.buttonShCForm:hover .divSvgBShC {
+  background-image: url("./trolley-ui-web-2-wight.svg");
+}
+
+.divSvgBDel {
+  content: "";
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./trolley-del-web-svgrepo-com.svg");
+  transition: background-image 250ms cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.buttonShCForm:hover .divSvgBDel {
+  background-image: url("./trolley-del-wight.svg");
+}

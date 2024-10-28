@@ -1,0 +1,20 @@
+.ulDrL {
+  list-style: none;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  border: 1px grey solid;
+}
+
+.buttonFA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: transparent;
+  background-color: transparent;
+  padding: 0;
+}
+
+.buttonFA:hover {
+  background-color: rgb(149, 200, 251);
+}
